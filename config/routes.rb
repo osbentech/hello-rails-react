@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :massages
-      get 'random-massage', to: 'massages#random_massage'
+      get '/messages', to: 'massages#random_massage'
     end
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

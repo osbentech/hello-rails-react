@@ -1,9 +1,9 @@
 # app/controllers/api/massages_controller.rb
 module Api
   class Api::V1::MassagesController < ApplicationController
-    def random_massage
+    def index
       @greeting = Message.order('RANDOM()').first
-      render json: { message: @greeting.message }
+      render json: @greeting
     end
   end
 end
