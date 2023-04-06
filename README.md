@@ -28,7 +28,7 @@
 
 # 📖 hello-rails-react <a name="about-project"></a>
 
-comming soon
+  hello-rails-react is an App that connects both react,redux and rails in one application
 
 ## 🛠 Built With <a name="built-with"></a>
 
