@@ -59,19 +59,59 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
 
-Clone project
 
-```bash
-git clone https://github.com/osbentech/hello-rails-react.git
 
-cd to Blog-App.git
 
-Run the program
+## Getting Started
 
-```bash
-rails s
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+> You need the following tools be installed in your computer:
+
+> - [Rails](https://guides.rubyonrails.org/)
+> - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+> - [Ruby](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md)
+> - IDE
+> - Etc
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-prefered-folder
+  
+  git clone https://github.com/osbentech/hello-rails-react.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd Blog_Rails
+  
+  bundle install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  rails server or rails s
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+
+```sh
+  rspec spec/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -110,7 +150,7 @@ If you like this project please give it a star 😁🌟✨
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Microverse.
+I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +160,5 @@ Microverse.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the  [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
