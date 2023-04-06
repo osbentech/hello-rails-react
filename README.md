@@ -92,7 +92,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Blog_Rails
+  cd hello-rails-react
   
   bundle install
 ```
@@ -102,7 +102,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  rails server or rails s
+  ./bin/dev
 ```
 
 ### Run tests
@@ -111,7 +111,7 @@ To run tests, run the following command:
 
 
 ```sh
-  rspec spec/
+  no test cases yet
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
