@@ -1,11 +1,10 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 export const fetchGreetings = createAsyncThunk('message/fetch', async () => {
-  const response = await fetch('/api/v1/messages');
+  const response = await fetch('/api/v1/massages');
   const data = await response.json();
-  //const message = data.message;
-  console.log(data)
-  //return message;
+  const message = data.message;
+  return message;
 });
 
 const initialState = { loading: false, greeting: '', error: '' };
